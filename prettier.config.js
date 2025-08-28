@@ -1,8 +1,7 @@
 export default {
-    semi: false,
-    singleQuote: true,
-    trailingComma: 'all',
-    arrowParens: 'always',
-    printWidth: 100,
-  }
-  
+  semi: false,
+  singleQuote: true,
+  trailingComma: 'all',
+  arrowParens: 'always',
+  printWidth: 100,
+}
