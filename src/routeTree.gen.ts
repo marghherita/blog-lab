@@ -177,8 +177,7 @@ const AppAuthRouteChildren: AppAuthRouteChildren = {
   AppAuthDashboardRoute: AppAuthDashboardRoute,
 }
 
-const AppAuthRouteWithChildren =
-  AppAuthRoute._addFileChildren(AppAuthRouteChildren)
+const AppAuthRouteWithChildren = AppAuthRoute._addFileChildren(AppAuthRouteChildren)
 
 interface AppRouteChildren {
   AppAuthRoute: typeof AppAuthRouteWithChildren

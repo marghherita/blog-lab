@@ -25,8 +25,6 @@ export const Route = createRootRouteWithContext<RouterCtx>()({
     if (locked && !isAllowedPath && !(bypassForLogged && isLogged)) {
       throw redirect({
         to: '/wip',
-        // opzionale: tieni memoria da dove arrivava
-        search: { from: path + location.search },
       })
     }
   },

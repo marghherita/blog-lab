@@ -5,9 +5,9 @@ import { useAuth } from '@clerk/clerk-react'
 
 const router = createRouter({
   routeTree,
-  context: { 
+  context: {
     auth: { isSignedIn: false, getToken: () => Promise.resolve(null) },
-    flags: { lockSite: false, allowSignedInBypass: true }
+    flags: { lockSite: false, allowSignedInBypass: true },
   },
 })
 declare module '@tanstack/react-router' {
