@@ -1,5 +1,5 @@
 import { Link, Outlet } from '@tanstack/react-router'
-import { Flower } from 'lucide-react'
+import Logo from '@/lib/assets/thebloglab.svg?react'
 import { Button } from '@/components/ui/button'
 import {
   NavigationMenu,
@@ -27,7 +27,7 @@ export default function AppLayout() {
         <div className="flex h-16 items-center justify-between gap-4">
           {/* LEFT: Logo */}
           <Link to="/" className="text-primary hover:text-primary/90">
-            <Flower className="size-4" />
+            <Logo className="w-[100px]" />
           </Link>
 
           {/* RIGHT: pagine + azioni (come aave.com/blog) */}
