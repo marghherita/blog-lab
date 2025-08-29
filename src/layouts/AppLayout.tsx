@@ -1,5 +1,6 @@
 import { Link, Outlet } from '@tanstack/react-router'
-import Logo from '@/lib/assets/thebloglab.svg?react'
+import Logo from '@/lib/assets/thebloglab-icon.svg?react'
+import LogoIcon from '@/assets/tbl_icon.svg?react'
 import { Button } from '@/components/ui/button'
 import {
   NavigationMenu,
@@ -26,8 +27,11 @@ export default function AppLayout() {
       <header className="border-b px-4 md:px-6">
         <div className="flex h-16 items-center justify-between gap-4">
           {/* LEFT: Logo */}
-          <Link to="/" className="text-primary hover:text-primary/90">
+          <Link to="/" className="text-primary hover:text-primary/90 hidden md:inline">
             <Logo className="w-[100px]" />
+          </Link>
+          <Link to="/" className="text-primary hover:text-primary/90 md:hidden">
+            <LogoIcon className="w-6" />
           </Link>
 
           {/* RIGHT: pagine + azioni (come aave.com/blog) */}

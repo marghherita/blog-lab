@@ -1,4 +1,4 @@
-import Logo from '@/lib/assets/thebloglab.svg?react'
+import LogoIcon from '@/lib/assets/thebloglab-icon.svg?react'
 import doggo from '@/lib/assets/images/doggo.png'
 
 export function WipPage() {
@@ -8,7 +8,7 @@ export function WipPage() {
       <div className="w-full max-w-[360px] sm:max-w-[680px] px-4">
         {/* blocco testo */}
         <div className="w-full text-center">
-          <Logo className="mx-auto h-[100px] md:h-[200px] w-auto text-foreground" />
+          <LogoIcon className="mx-auto h-[100px] md:h-[200px] w-auto text-foreground" />
           <h1 className="mt-12 text-balance text-2xl font-bold tracking-tight md:text-2xl md:text-black md:text-opacity-75">
             Ciao, sono Margherita.
             <br className="block" />
