@@ -32,6 +32,7 @@ export function WipPage() {
             loading="lazy"
             decoding="async"
           />
+          
           <p className="mt-6 max-w-2xl mx-auto text-pretty text-base leading-7 text-muted-foreground md:text-lg">
             a presto :)
           </p>
