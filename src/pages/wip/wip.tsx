@@ -5,7 +5,7 @@ export function WipPage() {
   return (
     <div className="relative grid min-h-svh place-items-center overflow-hidden bg-neutral-50 py-[50px]">
       {/* contenitore stretto: una colonna su telefono */}
-      <div className="w-full max-w-[360px] sm:max-w-[420px] px-4">
+      <div className="w-full max-w-[360px] sm:max-w-[680px] px-4">
         {/* blocco testo */}
         <div className="w-full text-center">
           <Logo className="mx-auto h-[100px] md:h-[200px] w-auto text-foreground" />
@@ -28,7 +28,7 @@ export function WipPage() {
           <img
             src={doggo}
             alt="Hero"
-            className="mx-auto w-full h-auto rounded-md"
+            className="mx-auto w-full h-auto rounded-md md:max-w-md"
             loading="lazy"
             decoding="async"
           />
