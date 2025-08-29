@@ -23,12 +23,12 @@ const active = 'text-primary'
 
 export default function AppLayout() {
   return (
-    <div>
-      <header className="border-b px-4 md:px-6">
-        <div className="flex h-16 items-center justify-between gap-4">
+    <div className="md:px-24">
+      <header className="px-4 md:px-6">
+        <div className="flex h-16 items-center justify-between gap-4 md:h-24 md:pt-12">
           {/* LEFT: Logo */}
           <Link to="/" className="text-primary hover:text-primary/90 hidden md:inline">
-            <Logo className="w-[100px]" />
+            <Logo className="w-[180px]" />
           </Link>
           <Link to="/" className="text-primary hover:text-primary/90 md:hidden">
             <LogoIcon className="w-6" />
